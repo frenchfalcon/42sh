@@ -6,9 +6,10 @@ Command line arguments are processed using a homemade Lexer, Parser (tree recurs
 
 Are handled :
 
-- Command execution
+- Native commands : ls, pwd, echo etc..
+- Binary execution : ./
 - Environment variables
-- All |, >, >>
+- All |, >, >>, ;
 - Signals, Ctrl-C/Ctrl-D
 
 
